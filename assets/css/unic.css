@@ -1,0 +1,93 @@
+:root {
+  --color-1: #17134a;
+  --color-2: #45426e;
+  --color-3: #747192;
+  --color-4: #a2a1b7;
+  --color-5: #d1d0db;
+  --color-6: #27A6FE;
+  --color-7: #8C3BFC;
+  --color-8: #DE238E;
+  --color-9: #FFCC85;
+  --color-10: #eeebfa;
+  --color-11: #dad5ed;
+  --color-12: #b0a6e0;
+  --color-13: #877bd4;
+  --color-14: #5f54c7;
+  --color-15: #3a30ba;
+  --color-16: #231f94;
+  --color-17: #12126e;
+  --color-18: #080a47;
+  --color-19: #030521;
+  --color-20: #F1FAF7;
+  --color-21: rgba(8,10,71,0.1);
+  --color-22: #FFFFFF;
+  --color-23: rgba(255,255,255,0);
+  --color-24: #FFF9F3;
+  --color-25: #220B3E;
+  --color-26: #FFF8E0;
+  --color-27: #F6F6FC;
+  --color-28: #25D06A;
+  --color-29: #FCF2DE;
+  --color-30: rgba(255,255,255,0.8);
+  --color-31: rgba(222,35,142,0.07);
+  --gradient-1: linear-gradient(45deg, var(--color-7) 0%, var(--color-6) 99%);
+}
+
+body {
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #45426e;
+    font-weight: 400;
+  }
+
+/* Copy this from dorik site assets */
+/* Degular Semibold */
+@font-face {
+    font-family: 'degular-semibold';
+    src: url('https://cdn.cmsfly.com/635bcad9b8a74e0091632998/degular-semibold-m1eBlC.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  /* Bricolage Grotesque Fonts (BG-400 to BG-700) */
+ @font-face {
+    font-family: 'BG';
+    src: url('https://cdn.cmsfly.com/635bcad9b8a74e0091632998/bricolagegrotesque-variablefont_opsz,wdth,wght-XYP-xv.woff2') format('woff2');
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  /* PolySans (PS) */
+  @font-face {
+    font-family: 'PS';
+    src: url('https://cdn.cmsfly.com/635bcad9b8a74e0091632998/polysansneutral-M4Y11o.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  .font-BG{
+    font-family: 'BG', sans-serif;
+  }
+
+  .font-ps{
+    font-family: 'PS', sans-serif;
+  }
+
+  .font-degular {
+    font-family: 'degular-semibold', sans-serif;
+  }  
+
+  .container{
+    max-width: 1170px;
+  }
+  .bg-size-400{
+    background-size: 400px;
+  }
+
+  .filter-img{
+    filter: grayscale(100%) sepia(0%) blur(0px) brightness(100%) hue-rotate(0deg) saturate(100%) opacity(100%) contrast(100%) invert(0%);
+  }
+  
